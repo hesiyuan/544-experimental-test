@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/camera.css" rel="stylesheet">
+  <script type="text/javascript" src="js/external.js"></script>
+  <title>Camera selection</title>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Camera</h1>
+  </header>
+
+  <main>
+    <div class="controls">
+      <button id="button">Get camera</button>
+      <select id="select">
+        <option></option>
+      </select>
+      <button id="button2">Overlay</button>
+      <select id="select2">
+        <option>default</option>
+        <option>triangle</option>
+        <option>tasks</option>
+        <option>grayscale</option>
+      </select>
+    </div>
+
+    <video hidden id="video" autoplay playsinline></video>
+
+    <div id="block">
+      <canvas id="c2" width="560" height="500"></canvas>
+    <!--   <canvas id="c2"></canvas> -->
+    </div>
+
+    <div>
+     <!--  <canvas hidden id="c1"></canvas> -->
+      <canvas hidden id="c1" width="560" height="500"></canvas>
+    </div>
+  </main>
+  <script type="text/javascript" src="js/camera.js"></script>
+  <script type="text/javascript" src="js/augmenter.js"></script>
+</body>
+
+</html>

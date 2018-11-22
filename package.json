@@ -1,0 +1,17 @@
+{
+  "name": "Marvin",
+  "version": "1.0.0",
+  "description": "medium-fidelity",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Team Marvin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "minimist": "^1.1.1",
+    "npm": "^6.3.0"
+  }
+}
