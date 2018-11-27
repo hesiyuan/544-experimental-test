@@ -9,7 +9,7 @@ let augmenter = {
     this.ctx2 = this.c2.getContext('2d');
     this.status = "default";
     this.img = new Image();   // Create new img element for tasks page
-    this.img.src = "img/tasks.png";
+    this.img.src = "img/task_500_560_v2.png";
 
     let self = this;
     this.video.addEventListener('play', function() {
